@@ -31,7 +31,20 @@
 					<scoreDef/>
 					<section>
 						<pb/>
-						<measure facs="#zone_4f495e12-0114-47d7-998f-e2e46b04119a" label="1" n="1" xml:id="measure_efeb17e7-3e52-44e9-a922-b1f219dd84fc"/>
+						<measure facs="#zone_4f495e12-0114-47d7-998f-e2e46b04119a" label="1" n="1" xml:id="measure_efeb17e7-3e52-44e9-a922-b1f219dd84fc">
+							<staff n="1" xml:id="staff-0000001856634263">
+								<layer n="1" xml:id="layer-0000001057534889">
+									<note dur="8" oct="5" pname="c" stem.dir="up" xml:id="note-0000001414216851"/>
+								</layer>
+							</staff>
+							<staff n="2" xml:id="staff-0000001602055204">
+								<layer n="1" xml:id="layer-0000000591847542">
+									<rest dur="8" xml:id="rest-0000000037385490"/>
+								</layer>
+							</staff>
+							<tempo place="above" staff="1" tstamp="1"/>
+							<dynam place="below" staff="1" tstamp="1.000000" vgrp="200" xml:id="dynam-0000001514667331"/>
+						</measure>
 						<measure facs="#zone_def6ce94-3f32-4345-b7d4-f0ac73942fdc" label="2" n="2" xml:id="measure_1987ee9c-f60c-49cb-9b3f-e208d2f47fdf">
 							<staff n="1" xml:id="staff-0000002039052738">
 								<layer n="1" xml:id="layer-0000000815328740">
