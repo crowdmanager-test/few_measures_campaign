@@ -78,7 +78,50 @@
 							<slur curvedir="above" endid="#note-0000000347848722" startid="#note-0000000136981673" xml:id="slur-0000000148508527"/>
 							<slur curvedir="above" endid="#chord-0000001553130171" startid="#chord-0000001368871318" xml:id="slur-0000000627931315"/>
 						</measure>
-						<measure facs="#zone_c0c2d7bd-24cd-41ef-a373-84e2790438b7" label="3" n="3" xml:id="measure_85b11ac7-00e7-4737-b1e7-acd896ce58ad"/>
+						<measure facs="#zone_c0c2d7bd-24cd-41ef-a373-84e2790438b7" label="3" n="3" xml:id="measure_85b11ac7-00e7-4737-b1e7-acd896ce58ad">
+							<staff n="1" xml:id="staff-0000000996046316">
+								<layer n="1" xml:id="layer-0000001121750709">
+									<chord dur="4" stem.dir="down" xml:id="chord-0000000235983812">
+										<note oct="4" pname="g" xml:id="note-0000000505229150"/>
+										<note accid.ges="f" oct="4" pname="b" xml:id="note-0000001925115922"/>
+										<note oct="5" pname="c" xml:id="note-0000000642252548"/>
+										<note oct="5" pname="e" xml:id="note-0000001085764414"/>
+									</chord>
+									<chord dur="8" stem.dir="down" xml:id="chord-0000000992397383">
+										<artic artic="stacc" xml:id="artic-0000001864813479"/>
+										<note oct="4" pname="a" xml:id="note-0000001273957539"/>
+										<note oct="5" pname="c" xml:id="note-0000001543797235"/>
+										<note oct="5" pname="f" xml:id="note-0000000702705591"/>
+									</chord>
+									<rest dur="16" xml:id="rest-0000001360293084"/>
+									<note dur="16" oct="5" pname="c" stem.dir="up" xml:id="note-0000000334956826"/>
+								</layer>
+							</staff>
+							<staff n="2" xml:id="staff-0000001413971938">
+								<layer n="1" xml:id="layer-0000000572324264">
+									<chord dur="4" stem.dir="down" xml:id="chord-0000001690553987">
+										<note oct="3" pname="f" xml:id="note-0000000474650135"/>
+										<note oct="3" pname="g" xml:id="note-0000001932209699"/>
+										<note accid.ges="f" oct="3" pname="b" xml:id="note-0000000400701159"/>
+										<note oct="4" pname="c" xml:id="note-0000000346310023"/>
+										<note oct="4" pname="e" xml:id="note-0000000751873191"/>
+									</chord>
+									<chord dur="8" stem.dir="down" xml:id="chord-0000001091532367">
+										<artic artic="stacc"/>
+										<note oct="3" pname="f" xml:id="note-0000000938942189"/>
+										<note oct="3" pname="a" xml:id="note-0000001579179495"/>
+										<note oct="4" pname="c" xml:id="note-0000000519379192"/>
+										<note oct="4" pname="f" xml:id="note-0000001832538536"/>
+									</chord>
+									<rest dur="8" xml:id="rest-0000000264709278"/>
+								</layer>
+							</staff>
+							<arpeg plist="#chord-0000000235983812"/>
+							<arpeg plist="#chord-0000000992397383"/>
+							<arpeg plist="#chord-0000001690553987"/>
+							<arpeg plist="#chord-0000001091532367"/>
+							<dynam place="below" staff="1" tstamp="1.000000" vgrp="200" xml:id="dynam-0000000915404647"/>
+						</measure>
 						<measure facs="#zone_c33cae8f-2875-4803-b4d0-d3f204dc5f78" label="4" n="4" xml:id="measure_a79b1551-4d19-4a15-af61-04d91aaf6965"/>
 						<measure facs="#zone_65dc1a9b-e97e-493c-8d40-fecfe63839aa" label="5" n="5" xml:id="measure_79dcd935-dd84-45a5-ba4e-d1fe4626011e">
 							<staff n="1" xml:id="staff-0000001132594889">
