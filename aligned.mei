@@ -80,7 +80,52 @@
 						</measure>
 						<measure facs="#zone_c0c2d7bd-24cd-41ef-a373-84e2790438b7" label="3" n="3" xml:id="measure_85b11ac7-00e7-4737-b1e7-acd896ce58ad"/>
 						<measure facs="#zone_c33cae8f-2875-4803-b4d0-d3f204dc5f78" label="4" n="4" xml:id="measure_a79b1551-4d19-4a15-af61-04d91aaf6965"/>
-						<measure facs="#zone_65dc1a9b-e97e-493c-8d40-fecfe63839aa" label="5" n="5" xml:id="measure_79dcd935-dd84-45a5-ba4e-d1fe4626011e"/>
+						<measure facs="#zone_65dc1a9b-e97e-493c-8d40-fecfe63839aa" label="5" n="5" xml:id="measure_79dcd935-dd84-45a5-ba4e-d1fe4626011e">
+							<staff n="1" xml:id="staff-0000001132594889">
+								<layer n="1" xml:id="layer-0000000227252415">
+									<note dur="4" oct="4" pname="a" stem.dir="up" xml:id="note-0000001205414539"/>
+									<beam xml:id="beam-0000000549056597">
+										<note dur="16" oct="4" pname="g" stem.dir="up" xml:id="note-0000000256994620"/>
+										<note dur="16" oct="4" pname="a" stem.dir="up" xml:id="note-0000000718964223">
+											<artic artic="stacc" xml:id="artic-0000001888697939"/>
+										</note>
+										<note accid.ges="f" dur="16" oct="4" pname="b" stem.dir="up" xml:id="note-0000000787303408">
+											<artic artic="stacc"/>
+										</note>
+										<note dur="16" oct="4" pname="b" stem.dir="up" xml:id="note-0000001902448836">
+											<accid accid="n" xml:id="accid-0000000573566469"/>
+											<artic artic="stacc" xml:id="artic-0000002025036747"/>
+										</note>
+									</beam>
+								</layer>
+								<layer n="2" xml:id="layer-0000001471769173">
+									<note dur="4" oct="4" pname="c" stem.dir="down" xml:id="note-0000001307844465"/>
+									<note dur="8" oct="4" pname="c" stem.dir="down" xml:id="note-0000001446796210"/>
+									<rest dur="8" xml:id="rest-0000000346566489"/>
+								</layer>
+							</staff>
+							<staff n="2" xml:id="staff-0000000097090031">
+								<layer n="1" xml:id="layer-0000001852062944">
+									<note dur="4" oct="3" pname="f" stem.dir="up" xml:id="note-0000001993920190"/>
+									<note dur="8" oct="3" pname="e" stem.dir="up" xml:id="note-0000001130868713"/>
+									<rest dur="8" xml:id="rest-0000001280183441"/>
+								</layer>
+								<layer n="2" xml:id="layer-0000000404433594">
+									<beam xml:id="beam-0000000870914806">
+										<note dots="1" dur="16" oct="3" pname="c" stem.dir="down" xml:id="note-0000000529671603"/>
+										<note dur="32" oct="2" pname="b" stem.dir="down" xml:id="note-0000000216606490">
+											<accid accid="n" xml:id="accid-0000000520495765"/>
+										</note>
+										<note dots="1" dur="16" oct="3" pname="c" stem.dir="down" xml:id="note-0000001271428124"/>
+										<note dur="32" oct="2" pname="b" stem.dir="down" xml:id="note-0000001430192418"/>
+									</beam>
+									<note dur="8" oct="3" pname="c" stem.dir="down" xml:id="note-0000000459508455"/>
+								</layer>
+							</staff>
+							<slur curvedir="above" endid="#note-0000000256994620" startid="#note-0000001205414539" xml:id="slur-0000000041431175"/>
+							<slur curvedir="above" endid="#note-0000001902448836" startid="#note-0000000718964223" xml:id="slur-0000001390474466"/>
+							<slur curvedir="above" endid="#note-0000001130868713" startid="#note-0000001993920190" xml:id="slur-0000000334321895"/>
+						</measure>
 						<measure facs="#zone_76b92438-7ad5-481a-b316-83da520e4bf9" label="6" n="6" xml:id="measure_7eff0405-3ecc-4c9a-870a-2054f40490db"/>
 						<sb/>
 						<pb/>
