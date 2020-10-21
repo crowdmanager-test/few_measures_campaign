@@ -32,7 +32,52 @@
 					<section>
 						<pb/>
 						<measure facs="#zone_4f495e12-0114-47d7-998f-e2e46b04119a" label="1" n="1" xml:id="measure_efeb17e7-3e52-44e9-a922-b1f219dd84fc"/>
-						<measure facs="#zone_def6ce94-3f32-4345-b7d4-f0ac73942fdc" label="2" n="2" xml:id="measure_1987ee9c-f60c-49cb-9b3f-e208d2f47fdf"/>
+						<measure facs="#zone_def6ce94-3f32-4345-b7d4-f0ac73942fdc" label="2" n="2" xml:id="measure_1987ee9c-f60c-49cb-9b3f-e208d2f47fdf">
+							<staff n="1" xml:id="staff-0000002039052738">
+								<layer n="1" xml:id="layer-0000000815328740">
+									<note dur="4" oct="5" pname="c" stem.dir="up" xml:id="note-0000000136981673"/>
+									<beam>
+										<note dur="8" oct="5" pname="d" stem.dir="up" xml:id="note-0000000606815475"/>
+										<note dur="8" oct="5" pname="c" stem.dir="up" xml:id="note-0000000347848722"/>
+									</beam>
+								</layer>
+								<layer n="2" xml:id="layer-0000000842983520">
+									<note dur="4" oct="4" pname="f" stem.dir="down" xml:id="note-0000001074401381"/>
+									<beam>
+										<note dur="8" oct="4" pname="f" stem.dir="down" xml:id="note-0000001421506491"/>
+										<note dur="8" oct="4" pname="f" stem.dir="down" xml:id="note-0000000504021362"/>
+									</beam>
+								</layer>
+							</staff>
+							<staff n="2" xml:id="staff-0000001963373113">
+								<layer n="1" xml:id="layer-0000000178190389">
+									<chord dur="4" stem.dir="up" xml:id="chord-0000001368871318">
+										<note oct="3" pname="a" xml:id="note-0000001253664005"/>
+										<note oct="4" pname="c" xml:id="note-0000000906969847"/>
+									</chord>
+									<beam>
+										<chord dur="8" stem.dir="up" xml:id="chord-0000000995605610">
+											<note accid.ges="f" oct="3" pname="b" xml:id="note-0000000603292123"/>
+											<note oct="4" pname="d" xml:id="note-0000002098393493"/>
+										</chord>
+										<chord dur="8" stem.dir="up" xml:id="chord-0000001553130171">
+											<note oct="3" pname="a" xml:id="note-0000001722985817"/>
+											<note oct="4" pname="c" xml:id="note-0000000795054712"/>
+										</chord>
+									</beam>
+								</layer>
+								<layer n="2" xml:id="layer-0000000841292950">
+									<beam xml:id="beam-0000001170722140">
+										<note dur="8" oct="3" pname="f" stem.dir="down" xml:id="note-0000000578278802"/>
+										<note dur="8" oct="3" pname="f" stem.dir="down" xml:id="note-0000001768322539"/>
+										<note dur="8" oct="3" pname="f" stem.dir="down" xml:id="note-0000001081833166"/>
+										<note dur="8" oct="3" pname="f" stem.dir="down" xml:id="note-0000001773465460"/>
+									</beam>
+								</layer>
+							</staff>
+							<slur curvedir="above" endid="#note-0000000347848722" startid="#note-0000000136981673" xml:id="slur-0000000148508527"/>
+							<slur curvedir="above" endid="#chord-0000001553130171" startid="#chord-0000001368871318" xml:id="slur-0000000627931315"/>
+						</measure>
 						<measure facs="#zone_c0c2d7bd-24cd-41ef-a373-84e2790438b7" label="3" n="3" xml:id="measure_85b11ac7-00e7-4737-b1e7-acd896ce58ad"/>
 						<measure facs="#zone_c33cae8f-2875-4803-b4d0-d3f204dc5f78" label="4" n="4" xml:id="measure_a79b1551-4d19-4a15-af61-04d91aaf6965"/>
 						<measure facs="#zone_65dc1a9b-e97e-493c-8d40-fecfe63839aa" label="5" n="5" xml:id="measure_79dcd935-dd84-45a5-ba4e-d1fe4626011e"/>
