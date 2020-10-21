@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mei xmlns="http://www.music-encoding.org/ns/mei">
+  <meiHead>
+    <fileDesc>
+      <titleStmt/>
+      <pubStmt/>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application isodate="2020-10-21T13:57:29" version="1.0.0">
+          <name>MeasureDetector</name>
+          <p>Measures detected with MeasureDetector</p>
+        </application>
+      </appInfo>
+    </encodingDesc>
+  </meiHead>
+  <music>
+    <facsimile>
+            <surface xml:id="surface_c437e437-121d-46f1-b53d-1f970c919f72" n="1" ulx="0" uly="0" lrx="2479" lry="3508"><graphic xml:id="graphic_7018b18a-3f36-4db6-b26f-af20f7731714" target="page_0.jpg" width="2480" height="3509"/><zone xml:id="zone_4f495e12-0114-47d7-998f-e2e46b04119a" type="measure" ulx="346" uly="813" lrx="686" lry="1313"/><zone xml:id="zone_def6ce94-3f32-4345-b7d4-f0ac73942fdc" type="measure" ulx="618" uly="809" lrx="912" lry="1324"/><zone xml:id="zone_c0c2d7bd-24cd-41ef-a373-84e2790438b7" type="measure" ulx="850" uly="818" lrx="1203" lry="1338"/><zone xml:id="zone_c33cae8f-2875-4803-b4d0-d3f204dc5f78" type="measure" ulx="1121" uly="814" lrx="1540" lry="1337"/><zone xml:id="zone_65dc1a9b-e97e-493c-8d40-fecfe63839aa" type="measure" ulx="1469" uly="821" lrx="1969" lry="1333"/><zone xml:id="zone_76b92438-7ad5-481a-b316-83da520e4bf9" type="measure" ulx="1907" uly="830" lrx="2331" lry="1360"/></surface></facsimile>
+    <body>
+            <mdiv xml:id="mdiv_8db47b81-35ae-494b-970e-3478ba1e8fcd" n="1" label=""><score><scoreDef/><section><pb/><measure xml:id="measure_efeb17e7-3e52-44e9-a922-b1f219dd84fc" n="1" label="1" facs="#zone_4f495e12-0114-47d7-998f-e2e46b04119a"/><measure xml:id="measure_1987ee9c-f60c-49cb-9b3f-e208d2f47fdf" n="2" label="2" facs="#zone_def6ce94-3f32-4345-b7d4-f0ac73942fdc"/><measure xml:id="measure_85b11ac7-00e7-4737-b1e7-acd896ce58ad" n="3" label="3" facs="#zone_c0c2d7bd-24cd-41ef-a373-84e2790438b7"/><measure xml:id="measure_a79b1551-4d19-4a15-af61-04d91aaf6965" n="4" label="4" facs="#zone_c33cae8f-2875-4803-b4d0-d3f204dc5f78"/><measure xml:id="measure_79dcd935-dd84-45a5-ba4e-d1fe4626011e" n="5" label="5" facs="#zone_65dc1a9b-e97e-493c-8d40-fecfe63839aa"/><measure xml:id="measure_7eff0405-3ecc-4c9a-870a-2054f40490db" n="6" label="6" facs="#zone_76b92438-7ad5-481a-b316-83da520e4bf9"/><sb/><pb/></section></score></mdiv></body>
+  </music>
+</mei>
